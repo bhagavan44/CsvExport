@@ -76,7 +76,7 @@ left join PAYEE_V1 P on P.PayeeId=T.PayeeId
 left join ACCOUNTLIST_V1 A on T.ToAccountId=A.AccountId
 where transcode='Transfer'",
 
-                @"select AccountName TRANSID,AccountName,'Deposit' TransCode,Notes,'Initial Balance' CATEGNAME,'' SUBCATEGNAME,'' PAYEENAME,initialBal  TRANSAMOUNT, '2015/11/10' TRANSDATE
+                @"select AccountName TRANSID,AccountName,'Deposit' TransCode,Notes,'Initial Balance' CATEGNAME,'' SUBCATEGNAME,'' PAYEENAME,initialBal  TRANSAMOUNT, '2015-10-10' TRANSDATE
 from ACCOUNTLIST_V1 where INITIALBAL>0"
             };
         }
