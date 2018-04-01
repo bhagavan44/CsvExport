@@ -15,7 +15,7 @@ namespace CsvExport
         {
             try
             {
-                Constants.ConnectoinString = @"C:\Users\bhaga\Dropbox\MoneyManger\Database\1.mmb";
+                Constants.ConnectoinString = @"DataSource=C:\Users\bhaga\Dropbox\MoneyManger\Database\1.mmb";
                 ExportData();
 
                 Console.WriteLine("File exported successfully");
