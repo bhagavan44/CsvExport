@@ -15,7 +15,7 @@ namespace CsvExport
         {
             try
             {
-                Constants.ConnectoinString = @"Data Source=C:\Users\bhaga\Documents\Dropbox\MoneyManger\Database\1.mmb";
+                Constants.ConnectoinString = @"C:\Users\bhaga\Dropbox\MoneyManger\Database\1.mmb";
                 ExportData();
 
                 Console.WriteLine("File exported successfully");
@@ -30,7 +30,7 @@ namespace CsvExport
 
         private static void ExportData()
         {
-            const string filePath = @"C:\Users\bhaga\Documents\Dropbox\MoneyManger\Data\TransView.csv";
+            const string filePath = @"C:\Users\bhaga\Dropbox\MoneyManger\Data\TransView.csv";
 
             var sqlQueries = GetSqlQuries();
 
